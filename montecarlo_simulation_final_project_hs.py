@@ -37,7 +37,12 @@ This code saves two figures corresponding to the Dalitz plot from the equations 
 cheking the Python version  and installing libraries
 """
 
-pip install mpl-scatter-density --q && python --version
+import subprocess
+
+def install(name):
+    subprocess.call([sys.executable, '-m', 'pip', 'install', mpl-scatter-density])
+
+#pip install mpl-scatter-density --q && python --version
 
 import numpy as np
 import random
