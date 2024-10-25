@@ -10,7 +10,7 @@ This code makes a Montecarlo simulation through the Metropolis-Hastings algorith
 
 On the other hand, the aceptance ratio uses the probability amplitud as
 
-$|{\overline{\mathcal{M}}(m_{12_{i→j}})}|^2=A^2 \dfrac{m_{k^{*}}^4}{(m_{12_{j}}^2-m_{k^{*}}^2)^2 +m_{k^{*}}^2\Gamma_{k^{*}}^2  }$,
+|M $(m_{12_{i→j}})|^2=$ $A^2$ $\frac{m_{k^{*}}^4}{(m_{12_{j}}^2-m_{k^{*}}^2)^2 +m_{k^{*}}^2\Gamma_{k^{*}}^2  }$,
 
 where $A^2=2.18 \times 10^{-17}$ and $Γ_{k*}=50$ MeV.
 
